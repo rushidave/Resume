@@ -123,11 +123,33 @@ a {
   clear:both;
 }
 
+#footerContacts{
+  text-align: left;
+}
+
 .dark-gray {
   background-color: #4a4a4a;
 }
 
 /* TODO: Replace with image later */
+#hr1 {
+    height: 1px;
+    width: 50%;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  padding-left: 10%;
+  background-color: #FAEBD7;
+}
+
+#skillsImg {
+    padding-right: 200px;
+}
+
 #header {
   background-color: #484848;
 }
